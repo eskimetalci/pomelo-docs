@@ -19,44 +19,80 @@
         .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 40px; }
         h2 { font-size: 1.05rem; font-weight: 600; margin: 32px 0 8px; }
         p { color: #333; }
+        ul { margin: 8px 0 8px 20px; color: #333; }
         footer { margin-top: 56px; font-size: 0.8rem; color: #999; }
     </style>
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="subtitle">Last updated: August 2026</p>
+<p class="subtitle">Last updated: November 2026</p>
 
 <p>Pomelo is a personal productivity app built for individuals who want to manage their tasks and
     focus sessions. Your privacy is important to us.</p>
 
-<h2>No Data Collection</h2>
-<p>Pomelo does not collect, transmit, or share any personal data. The app operates entirely on your
-    device. No analytics, no tracking, no advertising identifiers.</p>
+<h2>No Account, No Tracking</h2>
+<p>Pomelo has no account and no server of its own. There are no analytics, no tracking and no
+    advertising identifiers. The only data that leaves your device is described below: crash
+    reports, feedback you choose to send, purchases, and services you choose to connect.</p>
 
-<h2>Local Storage Only</h2>
-<p>All tasks, timer sessions, and preferences are stored locally on your device using on-device
-    databases. This data never leaves your device and is not accessible to us.</p>
+<h2>Local Storage</h2>
+<p>All tasks, goals, timer sessions, time logs and preferences are stored locally on your device
+    using on-device databases. We can't see them.</p>
 
 <h2>Calendar &amp; Reminders Access</h2>
-<p>If you grant permission, Pomelo reads your calendar events and reminders to display them
-    alongside your tasks. This data is read locally and is never transmitted anywhere.</p>
+<p>If you grant permission, Pomelo reads your calendar events and reminders to show them alongside
+    your tasks. If you turn on syncing with Reminders, finishing, editing or deleting a task that
+    came from Reminders changes that reminder too. All of this happens on your device through
+    Apple's own apps, and none of it is sent to us.</p>
 
-<h2>Crash Reporting (Sentry)</h2>
+<h2>Smart Features</h2>
+<p>On devices with Apple Intelligence, brain dump and smart suggestions read the text you write
+    and your task titles with Apple's on-device model. That text never leaves your device.</p>
+
+<h2>Trello</h2>
+<p>If you connect Trello, Pomelo talks to Trello (Atlassian) directly from your device. Pomelo:</p>
+<ul>
+    <li>Reads the boards and lists you choose, and the open cards in them: name, description, due
+        date, completion, checklists and link</li>
+    <li>Sends back only whether a card is complete and the ticks on its checklists, if you leave
+        that switched on</li>
+    <li>Stores the tasks it imports on your device, like any other task</li>
+    <li>Keeps your Trello sign-in in the iOS Keychain on this device only</li>
+    <li>Doesn't store your Trello name, email, picture or username</li>
+</ul>
+<p>Disconnecting deletes the sign-in from your device. Imported tasks stay, and stop syncing. To
+    remove Pomelo's access completely, revoke it in your Trello account settings. Trello's own
+    privacy policy is at <a href="https://www.atlassian.com/legal/privacy-policy" rel="noopener"
+                            target="_blank">atlassian.com/legal/privacy-policy</a>.</p>
+
+<h2>Purchases (RevenueCat)</h2>
+<p>Subscriptions and the lifetime purchase are paid through Apple. We never see your payment
+    details. Pomelo uses <a href="https://www.revenuecat.com" rel="noopener"
+                            target="_blank">RevenueCat</a> to check what you've bought, so it
+    receives your App Store purchase history for Pomelo, a random anonymous ID, your device type,
+    operating system, app version, country and IP address. It doesn't receive your tasks or
+    anything else you enter in the app. RevenueCat's privacy policy is at <a
+            href="https://www.revenuecat.com/privacy" rel="noopener"
+            target="_blank">revenuecat.com/privacy</a>.</p>
+
+<h2>Crash Reporting and Feedback (Sentry)</h2>
 <p>Pomelo uses <a href="https://sentry.io" rel="noopener" target="_blank">Sentry</a> to collect
     anonymous crash and error reports. When the app crashes or encounters an unexpected error,
     Sentry receives a report containing:</p>
-<ul style="margin: 8px 0 8px 20px; color: #333;">
+<ul>
     <li>The stack trace (code location of the error)</li>
     <li>Device model and operating system version</li>
     <li>App version</li>
     <li>A randomly generated, anonymous device identifier</li>
 </ul>
 <p>Crash reports <strong>never</strong> include your tasks, timer data, calendar events, or any
-    content you enter in the app. This data is used solely to identify and fix bugs.</p>
+    content you enter in the app. They are used solely to identify and fix bugs.</p>
+<p>When you send feedback from Settings, your message, and your email address if you add one, go
+    to us through Sentry. We use them only to read and answer your feedback.</p>
 
 <h2>Third-Party Services</h2>
-<p>Sentry is the only third-party service used in Pomelo. No analytics platforms, advertising
-    networks, or data brokers are used. Sentry's own privacy policy is available at <a
+<p>Pomelo uses Sentry, RevenueCat, and Trello if you connect it. No analytics platforms,
+    advertising networks, or data brokers are used. Sentry's privacy policy is available at <a
             href="https://sentry.io/privacy/" rel="noopener" target="_blank">sentry.io/privacy</a>.
 </p>
 
